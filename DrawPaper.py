@@ -1,17 +1,11 @@
 a = int(input())
 b = int(input())
 c = int(input())
-if a > b:
-    if c > a:
-        print(a)
-    elif c < a and c > b:
-        print(c)
-    else:
-        print(b)
+score = a*0.1 + b*0.2 + c*0.7
+print("Score = %.1f"%score)
+if score > 60.0:
+    print("PASS")
 else:
-    if c > b:
-        print(b)
-    elif c < b and c > a:
-        print(c)
-    else:
-        print(a)
+    print("FAIL")
+    
+# for문 공부하기!
