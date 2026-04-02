@@ -1,11 +1,10 @@
-a = int(input())
-b = int(input())
-c = int(input())
-score = a*0.1 + b*0.2 + c*0.7
-print("Score = %.1f"%score)
-if score > 60.0:
-    print("PASS")
-else:
-    print("FAIL")
-    
-# for문 공부하기!
+total = 0
+count = 0
+while count < 5:
+    ipt = int(input())
+    count += 1
+    total += ipt
+    if ipt % 2 == 0:
+        break
+print("Total = %d" % total)
+print("Count = %d" % count)

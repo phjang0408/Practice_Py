@@ -22,7 +22,7 @@ print(a.index(4))   #
 # 5. 제거 - remove
 a.remove(1)         #
 print(a) 
-a.pop()             #
+a.pop()             # 맨 뒤의 원소 pop
 print(a) 
 
 # 6. 원소 세기 - count
