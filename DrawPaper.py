@@ -1,10 +1,18 @@
+o = 0
+x = 0
 total = 0
-count = 0
-while count < 5:
-    ipt = int(input())
-    count += 1
-    total += ipt
-    if ipt % 2 == 0:
+while True:
+    ipt = input()
+    if ipt == "Finish":
         break
-print("Total = %d" % total)
-print("Count = %d" % count)
+    elif ipt == 'X':
+        x += 1
+        total += 1
+    elif ipt == 'O':
+        o += 1
+        total += 1
+    
+    
+print("O : %d" % o)
+print("X : %d" % x)
+print("Rate : %.2f%%" % (o*100 / total))

@@ -8,6 +8,7 @@ he says
 Easy!
 '''     # 큰 따옴표도 가능
 # 역슬래시 -> \n, \t, \\, \', \" 등
+# [%는 %%로 보간!]
 
 tmp_string = "abcdefghijklmn"
 
