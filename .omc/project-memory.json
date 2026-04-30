@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777508943999,
+  "projectRoot": "/Users/dnln/Desktop/Code/Practice_Py",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "리스트_튜플_딕셔너리": {
+      "path": "리스트_튜플_딕셔너리",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1777508943983,
+      "keyFiles": [
+        "리스트1_.py",
+        "리스트_2.py",
+        "튜플_1.py"
+      ]
+    },
+    "문자열": {
+      "path": "문자열",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1777508943984,
+      "keyFiles": [
+        "문자열2_포매팅.py",
+        "문자열3_format함수.py",
+        "문자열3_관련함수.py",
+        "문자열_따옴표,연산, 인덱싱, 슬라이싱.py"
+      ]
+    },
+    "입출력": {
+      "path": "입출력",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1777508943984,
+      "keyFiles": [
+        "입출력.py",
+        "입출력2_Print심화.py"
+      ]
+    },
+    "제어문": {
+      "path": "제어문",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1777508943984,
+      "keyFiles": [
+        "for문_1.py",
+        "while문.py",
+        "조건문.py"
+      ]
+    },
+    "함수": {
+      "path": "함수",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777508943984,
+      "keyFiles": [
+        "함수_기본.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "DrawPaper.py",
+      "accessCount": 7,
+      "lastAccessed": 1777509852471,
+      "type": "file"
+    },
+    {
+      "path": "리스트_튜플_딕셔너리/리스트_문제5.py",
+      "accessCount": 3,
+      "lastAccessed": 1777510143194,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,18 +1,12 @@
-o = 0
-x = 0
-total = 0
-while True:
-    ipt = input()
-    if ipt == "Finish":
-        break
-    elif ipt == 'X':
-        x += 1
-        total += 1
-    elif ipt == 'O':
-        o += 1
-        total += 1
+n = int(input())
+Eng = []
+Math = []
+for i in range(n):
+    Eng.append(int(input()))
     
+for i in range(n):
+    Math.append(int(input()))
     
-print("O : %d" % o)
-print("X : %d" % x)
-print("Rate : %.2f%%" % (o*100 / total))
+for i in range(n):
+    student_avg = (Eng[i] + Math[i]) / 2
+    print(student_avg)
