@@ -1,4 +1,8 @@
-price_table = [8000, 9000, 8000, 13000, 15000, 13000, 10000, 12000, 10000]
+price_table = [
+    [8000,  9000,  8000],
+    [13000, 15000, 13000],
+    [10000, 12000, 10000],
+]
 seats = []
 for i in range(5):
     seats.append(input())
@@ -22,7 +26,6 @@ for seat in seats:
     else:
         col_zone = 2
 
-    index = row_zone * 3 + col_zone
-    prices.append(price_table[index])
+    prices.append(price_table[row_zone][col_zone])
 
 print(seats[prices.index(min(prices))])
