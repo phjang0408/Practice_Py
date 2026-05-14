@@ -17,6 +17,6 @@ print("Life","is","short")
 print("2026","03","12", sep = '-')
 print("Jump","python", sep = " TO ")
 
-# 반복문 안 Print를, 한 줄에 출력 : end 사용
+# Print를, 한 줄에 출력 : end 사용
 for i in range(10):
     print(i, end = ' ')

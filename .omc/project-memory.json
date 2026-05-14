@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1777508943999,
+  "lastScanned": 1778716933707,
   "projectRoot": "/Users/dnln/Desktop/Code/Practice_Py",
   "techStack": {
     "languages": [],
@@ -29,71 +29,67 @@
   },
   "customNotes": [],
   "directoryMap": {
-    "리스트_튜플_딕셔너리": {
-      "path": "리스트_튜플_딕셔너리",
+    "00_개념": {
+      "path": "00_개념",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778716933686,
+      "keyFiles": []
+    },
+    "과제3": {
+      "path": "과제3",
       "purpose": null,
       "fileCount": 3,
-      "lastAccessed": 1777508943983,
+      "lastAccessed": 1778716933687,
       "keyFiles": [
-        "리스트1_.py",
-        "리스트_2.py",
-        "튜플_1.py"
+        "1_2등찾기.py",
+        "2_액티2차원배열.py",
+        "3_OX연속개수.py"
       ]
     },
-    "문자열": {
-      "path": "문자열",
+    "실습10": {
+      "path": "실습10",
       "purpose": null,
-      "fileCount": 4,
-      "lastAccessed": 1777508943984,
+      "fileCount": 7,
+      "lastAccessed": 1778716933688,
       "keyFiles": [
-        "문자열2_포매팅.py",
-        "문자열3_format함수.py",
-        "문자열3_관련함수.py",
-        "문자열_따옴표,연산, 인덱싱, 슬라이싱.py"
-      ]
-    },
-    "입출력": {
-      "path": "입출력",
-      "purpose": null,
-      "fileCount": 2,
-      "lastAccessed": 1777508943984,
-      "keyFiles": [
-        "입출력.py",
-        "입출력2_Print심화.py"
-      ]
-    },
-    "제어문": {
-      "path": "제어문",
-      "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1777508943984,
-      "keyFiles": [
-        "for문_1.py",
-        "while문.py",
-        "조건문.py"
-      ]
-    },
-    "함수": {
-      "path": "함수",
-      "purpose": null,
-      "fileCount": 1,
-      "lastAccessed": 1777508943984,
-      "keyFiles": [
-        "함수_기본.py"
+        "1.py",
+        "2.py",
+        "3.py",
+        "4.py",
+        "5.py"
       ]
     }
   },
   "hotPaths": [
     {
-      "path": "DrawPaper.py",
-      "accessCount": 7,
-      "lastAccessed": 1777509852471,
+      "path": "01_실습/실습11/5번.py",
+      "accessCount": 4,
+      "lastAccessed": 1778719884734,
       "type": "file"
     },
     {
-      "path": "리스트_튜플_딕셔너리/리스트_문제5.py",
-      "accessCount": 3,
-      "lastAccessed": 1777510143194,
+      "path": "00_개념/함수/함수_기본2.py",
+      "accessCount": 1,
+      "lastAccessed": 1778716941738,
+      "type": "file"
+    },
+    {
+      "path": "01_실습/실습11/백지.py",
+      "accessCount": 1,
+      "lastAccessed": 1778717882764,
+      "type": "file"
+    },
+    {
+      "path": "01_실습/실습11/3번.py",
+      "accessCount": 1,
+      "lastAccessed": 1778719884645,
+      "type": "file"
+    },
+    {
+      "path": "01_실습/실습11/4번.py",
+      "accessCount": 1,
+      "lastAccessed": 1778719884671,
       "type": "file"
     }
   ],

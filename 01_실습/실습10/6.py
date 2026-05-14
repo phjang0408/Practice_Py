@@ -11,6 +11,6 @@ def isPrime(x):
     return True
 num = int(input())
 if isPrime(num):
-    print(num,"is a prime number")
+    print(num,"is a prime number.")
 else:
-    print(num,"is not a prime number")
+    print(num,"is not a prime number.")
