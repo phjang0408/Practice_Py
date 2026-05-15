@@ -1,3 +1,4 @@
+# 중첩리스트 만들기
 n = int(input())
 m = int(input())
 li = []
