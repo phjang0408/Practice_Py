@@ -1,25 +1,15 @@
-def check_time(time_value, Over):
-    if (Over + time_value) >= 30:
-        time_value = time_value - (30 - Over)
-        Over = 30
-    else:
-        Over += time_value
-    return time_value, Over
-
-def calculate_cal(l, m, h, Over):
-    if Over >= 30:
-        return l * 1 + m * 3 + h * 5
-    else:
-        return l * 2 + m * 6 + h * 10
-
 n = int(input())
-Over = 0
-cal = 0
-
+over_time = 0
+total_cal = 0
 for _ in range(n):
-    l, Over = check_time(int(input()), Over)
-    m, Over = check_time(int(input()), Over)
-    h, Over = check_time(int(input()), Over)
-    cal += calculate_cal(l, m, h, Over)
+    l = int(input())
+    m = int(input())
+    h = int(input())
+    cal = l*2+m*6+h*10
 
-print(cal)
+    # 순서대로 처리 → 누적 상태 유지 → 임계값 초과 시 동작 변경 
+    if over_time > 30:
+        cal //= 2
+    total_cal += cal
+    over_time += (l+m+h)
+print(total_cal)
