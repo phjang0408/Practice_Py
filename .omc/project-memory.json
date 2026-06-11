@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1779930709990,
+  "lastScanned": 1781139089079,
   "projectRoot": "/Users/dnln/Desktop/Code/Practice_Py",
   "techStack": {
     "languages": [],
@@ -33,7 +33,7 @@
       "path": "00_개념",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1779930709971,
+      "lastAccessed": 1781139089057,
       "keyFiles": [
         "Join_Split.py"
       ]
@@ -42,14 +42,14 @@
       "path": "01_실습",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1779930709973,
+      "lastAccessed": 1781139089058,
       "keyFiles": []
     },
     "02_문제풀이전정리": {
       "path": "02_문제풀이전정리",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1779930709973,
+      "lastAccessed": 1781139089058,
       "keyFiles": [
         "01_builtin.py",
         "02_math.py",
@@ -62,7 +62,7 @@
       "path": "과제3",
       "purpose": null,
       "fileCount": 3,
-      "lastAccessed": 1779930709974,
+      "lastAccessed": 1781139089059,
       "keyFiles": [
         "1_2등찾기.py",
         "2_액티2차원배열.py",
@@ -73,7 +73,7 @@
       "path": "과제4",
       "purpose": null,
       "fileCount": 9,
-      "lastAccessed": 1779930709974,
+      "lastAccessed": 1781139089059,
       "keyFiles": [
         "1_1.py",
         "1_2.py",
@@ -118,6 +118,12 @@
       "path": "01_실습/실습11/4번.py",
       "accessCount": 1,
       "lastAccessed": 1778719884671,
+      "type": "file"
+    },
+    {
+      "path": "01_실습/실습15/6번.py",
+      "accessCount": 1,
+      "lastAccessed": 1781139124360,
       "type": "file"
     }
   ],
